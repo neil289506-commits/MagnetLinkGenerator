@@ -13,9 +13,9 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Widgets)
 qt_standard_project_setup()
 
 qt_add_executable(MagnetLinkGenerator
-    main.cpp
-    mainwindow.h
-    mainwindow.cpp
+    src/main.cpp
+    src/mainwindow.h
+    src/mainwindow.cpp
     app.rc
 )
 
